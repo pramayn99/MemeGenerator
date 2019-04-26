@@ -33,3 +33,27 @@ body {
   font-size: 30px;
   font-weight: 400;
 }
+
+.modal-image {
+  margin-bottom: 20px;
+}
+
+.sharp {
+  border-radius: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  .meme-card {
+    width: 80%;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .meme-card {
+    width: 80%;
+  }
+}

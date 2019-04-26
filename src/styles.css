@@ -1,4 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Monofett");
+@import url("https://fonts.googleapis.com/css?family=Covered+By+Your+Grace");
+
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+.title-heading {
+  font-family: "Monofett", cursive;
+  font-size: 50px;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.cta-btn {
+  border-radius: 0%;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.meme-card {
+  width: 40%;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 30px;
+  font-weight: 400;
 }

@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Button } from "reactstrap";
 import MemeCard from "./components/memecard";
 
-function App()
-
 class App extends Component {
   constructor(props) {
     super(props);

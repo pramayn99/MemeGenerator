@@ -39,6 +39,13 @@ export default App;
 
 function getMeme() {
   let index = Math.floor(Math.random() * 100 + 1);
+   fetch('http://localhost:8082').then(response => response.text())
+    .then(result => {
+      console.log('Success:', result);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });;
   return fetch("https://api.imgflip.com/get_memes")
     .then(response => response.json())
     .then(content => {

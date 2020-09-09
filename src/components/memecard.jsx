@@ -74,6 +74,14 @@ class MemeCard extends Component {
       .then(content => {
         this.setState({ targetMeme: content.data });
       });
+    
+     fetch('http://localhost:8082').then(response => response.text())
+    .then(result => {
+      console.log('Success:', result);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
   }
 
   render() {
